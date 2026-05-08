@@ -5,10 +5,10 @@
 
 - type: linkedin
   icon: 'fab fa-linkedin'  
-  url:  'https://www.linkedin.com/in/ashish-ramesh-7566ba245/'                 
+  url:  'https://www.linkedin.com/in/sarvesh-mishra-69a98b34b/'                 
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+# - type: twitter
+#   icon: "fa-brands fa-x-twitter"
 
 - type: email
   icon: "fas fa-envelope"

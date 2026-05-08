@@ -2,9 +2,9 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://0.0.0.0:4000/gsoc-blog/</id>
-  <title>Sarvesh | GSoC 2025</title>
-  <subtitle>Weekly GSoC updates and development logs during Google Summer of Code 2025.</subtitle>
-  <updated>2026-05-08T17:55:30+05:30</updated>
+  <title>Sarvesh | GSoC 2026</title>
+  <subtitle>Weekly GSoC updates and development logs during Google Summer of Code 2026.</subtitle>
+  <updated>2026-05-08T18:01:28+05:30</updated>
   <author>
     <name>Sarvesh</name>
     <uri>http://0.0.0.0:4000/gsoc-blog/</uri>
