@@ -1,0 +1,65 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://0.0.0.0:4000/gsoc-blog/</id>
+  <title>Sarvesh | GSoC 2025</title>
+  <subtitle>Weekly GSoC updates and development logs during Google Summer of Code 2025.</subtitle>
+  <updated>2026-05-08T10:40:42+05:30</updated>
+  <author>
+    <name>Sarvesh</name>
+    <uri>http://0.0.0.0:4000/gsoc-blog/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://0.0.0.0:4000/gsoc-blog/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://0.0.0.0:4000/gsoc-blog/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2026 Sarvesh </rights>
+  <icon>/gsoc-blog/assets/img/favicons/favicon.ico</icon>
+  <logo>/gsoc-blog/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Community Bonding</title>
+    <link href="http://0.0.0.0:4000/gsoc-blog/posts/Community-Bonding/" rel="alternate" type="text/html" title="Community Bonding" />
+    <published>2025-05-15T10:00:00+05:30</published>
+  
+    <updated>2025-05-15T10:00:00+05:30</updated>
+  
+    <id>http://0.0.0.0:4000/gsoc-blog/posts/Community-Bonding/</id>
+    <content type="text/html" src="http://0.0.0.0:4000/gsoc-blog/posts/Community-Bonding/" />
+    <author>
+      <name>Sarvesh</name>
+    </author>
+
+  
+    
+    <category term="GSoC 2025" />
+    
+    <category term="Progress" />
+    
+  
+
+  <summary>Summary
+Brief summary of the week’s goals.
+
+Progress
+
+  Item 1
+  Item 2
+
+
+Blockers
+
+  Any issues faced
+
+
+Next Steps
+
+  What’s planned for next week</summary>
+
+  </entry>
+
+</feed>
+
+
