@@ -26,21 +26,18 @@ description: >- # used by seo meta and the atom feed
 url: "https://theroboticsclub.github.io"
 
 github:
-  username: YOUR_GITHUB_USERNAME # change to your GitHub username
-
-twitter:
-  username: YOUR_TWITTER_USERNAME # change to your Twitter username
+  username: Sarvesh-Mishra1981 # change to your GitHub username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Sarvesh # change to your name
-  email: YOUR_EMAIL@example.com # change to your email address
+  email: sarveshmishraiit1981@example.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # - https://x.com/YOUR_TWITTER_USERNAME # change to your Twitter homepage
-    - https://github.com/YOUR_GITHUB_USERNAME # change to your GitHub homepage
-    - https://www.linkedin.com/in/YOUR_LINKEDIN_PROFILE/
+    - https://github.com/Sarvesh-Mishra1981 # change to your GitHub homepage
+    - https://www.linkedin.com/in/sarvesh-mishra-69a98b34b/
 
 # Site Verification Settings
 webmaster_verifications:
