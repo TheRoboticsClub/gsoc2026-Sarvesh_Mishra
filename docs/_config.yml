@@ -14,12 +14,12 @@ timezone: Asia/Kolkata
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Sarvesh | GSoC 2025 # the main title
+title: Sarvesh | GSoC 2026 # the main title
 
-tagline: Blog tracking my GSoC 2025 project progress. # it will display as the subtitle
+tagline: Blog tracking my GSoC 2026 project progress. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Weekly GSoC updates and development logs during Google Summer of Code 2025.
+  Weekly GSoC updates and development logs during Google Summer of Code 2026.
   
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -35,7 +35,6 @@ social:
   email: sarveshmishraiit1981@example.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://x.com/YOUR_TWITTER_USERNAME # change to your Twitter homepage
     - https://github.com/Sarvesh-Mishra1981 # change to your GitHub homepage
     - https://www.linkedin.com/in/sarvesh-mishra-69a98b34b/
 

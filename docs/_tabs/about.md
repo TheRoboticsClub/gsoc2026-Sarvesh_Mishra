@@ -5,7 +5,7 @@ order: 4
 ---
 
 
-Hi, I'm Sarvesh, a Google Summer of Code (GSoC) 2025 contributor.
+Hi, I'm Sarvesh, a Google Summer of Code (GSoC) 2026 contributor.
 
 **VisualCircuit Improving Functionality and Block Library**
 
