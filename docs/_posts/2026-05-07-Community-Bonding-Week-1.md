@@ -9,7 +9,7 @@ published: true
 ## Community Bonding Period
 I’m excited to be working with the JdeRobot community on the Robotics-Academy project through Google Summer of Code 2026! My project is titled:
 
-**"VisualCircuit Improving Functionality and Block Library"**
+**VisualCircuit Improving Functionality and Block Library**
 
 Google Summer of Code kicks off with a Community Bonding phase, where contributors get to know their mentors, interact with the community, and deepen their understanding of the organization and the project.
 
