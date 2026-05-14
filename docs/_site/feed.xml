@@ -4,7 +4,7 @@
   <id>http://0.0.0.0:4000/gsoc-blog/</id>
   <title>Sarvesh | GSoC 2026</title>
   <subtitle>Weekly GSoC updates and development logs during Google Summer of Code 2026.</subtitle>
-  <updated>2026-05-14T12:37:38+05:30</updated>
+  <updated>2026-05-14T13:27:44+05:30</updated>
   <author>
     <name>Sarvesh</name>
     <uri>http://0.0.0.0:4000/gsoc-blog/</uri>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>Community Bonding Week 2 (May 15 ~ 21)</title>
-    <link href="http://0.0.0.0:4000/gsoc-blog/posts/Community-Bonding/" rel="alternate" type="text/html" title="Community Bonding Week 2 (May 15 ~ 21)" />
+    <link href="http://0.0.0.0:4000/gsoc-blog/posts/Community-Bonding-Week-2/" rel="alternate" type="text/html" title="Community Bonding Week 2 (May 15 ~ 21)" />
     <published>2026-05-08T10:00:00+05:30</published>
   
     <updated>2026-05-08T10:00:00+05:30</updated>
   
-    <id>http://0.0.0.0:4000/gsoc-blog/posts/Community-Bonding/</id>
-    <content type="text/html" src="http://0.0.0.0:4000/gsoc-blog/posts/Community-Bonding/" />
+    <id>http://0.0.0.0:4000/gsoc-blog/posts/Community-Bonding-Week-2/</id>
+    <content type="text/html" src="http://0.0.0.0:4000/gsoc-blog/posts/Community-Bonding-Week-2/" />
     <author>
       <name>Sarvesh</name>
     </author>
@@ -63,13 +63,13 @@ Next Steps
   
   <entry>
     <title>Community Bonding (May 7 ~ 14)</title>
-    <link href="http://0.0.0.0:4000/gsoc-blog/posts/Community-Bonding/" rel="alternate" type="text/html" title="Community Bonding (May 7 ~ 14)" />
+    <link href="http://0.0.0.0:4000/gsoc-blog/posts/Community-Bonding-Week-1/" rel="alternate" type="text/html" title="Community Bonding (May 7 ~ 14)" />
     <published>2026-05-08T10:00:00+05:30</published>
   
     <updated>2026-05-08T10:00:00+05:30</updated>
   
-    <id>http://0.0.0.0:4000/gsoc-blog/posts/Community-Bonding/</id>
-    <content type="text/html" src="http://0.0.0.0:4000/gsoc-blog/posts/Community-Bonding/" />
+    <id>http://0.0.0.0:4000/gsoc-blog/posts/Community-Bonding-Week-1/</id>
+    <content type="text/html" src="http://0.0.0.0:4000/gsoc-blog/posts/Community-Bonding-Week-1/" />
     <author>
       <name>Sarvesh</name>
     </author>
@@ -85,9 +85,9 @@ Next Steps
   <summary>Community Bonding Period
 I’m excited to be working with the JdeRobot community on the Robotics-Academy project through Google Summer of Code 2026! My project is titled:
 
-“VisualCircuit Improving Functionality and Block Library”
+VisualCircuit Improving Functionality and Block Library
 
-Google Summer of Code kicks off with a Community Bonding phase, where contributors get to know their mentors, interact with the community, and deepen their understandin...</summary>
+Google Summer of Code kicks off with a Community Bonding phase, where contributors get to know their mentors, interact with the community, and deepen their understanding ...</summary>
 
   </entry>
 

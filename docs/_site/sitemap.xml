@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://0.0.0.0:4000/gsoc-blog/posts/Community-Bonding/</loc>
+<loc>http://0.0.0.0:4000/gsoc-blog/posts/Community-Bonding-Week-1/</loc>
 <lastmod>2026-05-08T10:00:00+05:30</lastmod>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/gsoc-blog/posts/Community-Bonding/</loc>
+<loc>http://0.0.0.0:4000/gsoc-blog/posts/Community-Bonding-Week-2/</loc>
 <lastmod>2026-05-08T10:00:00+05:30</lastmod>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/gsoc-blog/categories/</loc>
-<lastmod>2026-05-14T12:37:38+05:30</lastmod>
+<lastmod>2026-05-14T13:27:44+05:30</lastmod>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/gsoc-blog/tags/</loc>
-<lastmod>2026-05-14T12:37:38+05:30</lastmod>
+<lastmod>2026-05-14T13:27:44+05:30</lastmod>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/gsoc-blog/archives/</loc>
-<lastmod>2026-05-14T12:37:38+05:30</lastmod>
+<lastmod>2026-05-14T13:27:44+05:30</lastmod>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/gsoc-blog/about/</loc>
-<lastmod>2026-05-14T12:37:38+05:30</lastmod>
+<lastmod>2026-05-14T13:27:44+05:30</lastmod>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/gsoc-blog/</loc>
