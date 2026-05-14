@@ -1,16 +1,16 @@
 const swconf = {
   
-    cacheName: 'chirpy-1778745593',resources: [
-      '/gsoc-blog/assets/css/jekyll-theme-chirpy.css',
-      '/gsoc-blog/',
+    cacheName: 'chirpy-1778748933',resources: [
+      '/gsoc2026-Sarvesh_Mishra/assets/css/jekyll-theme-chirpy.css',
+      '/gsoc2026-Sarvesh_Mishra/',
       
-        '/gsoc-blog/categories/',
+        '/gsoc2026-Sarvesh_Mishra/categories/',
       
-        '/gsoc-blog/tags/',
+        '/gsoc2026-Sarvesh_Mishra/tags/',
       
-        '/gsoc-blog/archives/',
+        '/gsoc2026-Sarvesh_Mishra/archives/',
       
-        '/gsoc-blog/about/',
+        '/gsoc2026-Sarvesh_Mishra/about/',
       
 
       

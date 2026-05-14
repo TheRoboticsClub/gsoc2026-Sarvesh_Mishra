@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: http://0.0.0.0:4000/gsoc-blog/sitemap.xml
+Sitemap: http://0.0.0.0:4000/gsoc2026-Sarvesh_Mishra/sitemap.xml
