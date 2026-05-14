@@ -12,14 +12,13 @@ published: true
 - Investigate and fix a few open issues in the VisualCircuit repository.
 
 ## Progress & Achievements
-- **Line Follower Implementation:** I successfully implemented the Line Follower exercise utilizing VisualCircuit! This was a great hands-on way to test the platform's current capabilities.
-- **Blog Updates:** I published my first GSoC blog post detailing my initial community bonding week.
-- **Repository Contributions:** I started diving into the VisualCircuit codebase to track down and fix some of the currently open issues.
+- **VisualCircuit Implementation:** I have implemented the Line Follower exercise using VisualCircuit! The rest of the implementation details will be updated shortly, as I am currently finishing up the writing for this 2nd week of the Community Bonding blog post.
+- **Mentor Meeting:** We had a very productive meeting where we discussed our next goals and mapped out exactly what I will be doing this week.
 
 ## Issues Faced & Blockers
-- **Codebase Familiarization:** Navigating a new, complex codebase to fix existing issues naturally takes some time. Understanding the core architecture and how different modules interact is currently the biggest hurdle, but I am making steady progress by reading the documentation and running tests.
+- **Environment Setup:** My main challenge this week was setting up the local development environment for the implementation. Fortunately, we discovered a great solution—I was given a new method to run the environment smoothly through RADI (Robotics Academy Docker Image), which bypassed the initial setup hurdles!
 
 ## Next Steps
-- Continue resolving open issues in the VisualCircuit repository.
-- Prepare my local development environment for the start of the official GSoC coding period.
-- Discuss the upcoming coding milestones and architecture design with my mentors.
+- Execute the new goals and tasks discussed in our recent mentor meeting.
+- Continue testing and resolving open issues in the VisualCircuit repository.
+- Finalize preparations for the start of the official GSoC coding period.
