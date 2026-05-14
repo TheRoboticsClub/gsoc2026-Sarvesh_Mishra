@@ -4,7 +4,7 @@
   <id>http://0.0.0.0:4000/gsoc-blog/</id>
   <title>Sarvesh | GSoC 2026</title>
   <subtitle>Weekly GSoC updates and development logs during Google Summer of Code 2026.</subtitle>
-  <updated>2026-05-14T13:27:44+05:30</updated>
+  <updated>2026-05-14T13:29:52+05:30</updated>
   <author>
     <name>Sarvesh</name>
     <uri>http://0.0.0.0:4000/gsoc-blog/</uri>
@@ -83,11 +83,12 @@ Next Steps
   
 
   <summary>Community Bonding Period
-I’m excited to be working with the JdeRobot community on the Robotics-Academy project through Google Summer of Code 2026! My project is titled:
 
-VisualCircuit Improving Functionality and Block Library
+I am incredibly excited to be working with the JdeRobot community on the Robotics-Academy project for Google Summer of Code 2026! My accepted project is titled:
 
-Google Summer of Code kicks off with a Community Bonding phase, where contributors get to know their mentors, interact with the community, and deepen their understanding ...</summary>
+“VisualCircuit: Improving Functionality and Block Library”
+
+Google Summer of Code kicks off with a Community Bonding phase. This is a dedicated period for contributors to get to know their mentors, engage with...</summary>
 
   </entry>
 
