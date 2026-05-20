@@ -4,7 +4,7 @@
   <id>http://0.0.0.0:4000/gsoc2026-Sarvesh_Mishra/</id>
   <title>Sarvesh | GSoC 2026</title>
   <subtitle>Weekly GSoC updates and development logs during Google Summer of Code 2026.</subtitle>
-  <updated>2026-05-14T14:25:33+05:30</updated>
+  <updated>2026-05-20T22:19:09+05:30</updated>
   <author>
     <name>Sarvesh</name>
     <uri>http://0.0.0.0:4000/gsoc2026-Sarvesh_Mishra/</uri>
@@ -22,9 +22,9 @@
   <entry>
     <title>Community Bonding Week 2 (May 15 ~ 21)</title>
     <link href="http://0.0.0.0:4000/gsoc2026-Sarvesh_Mishra/posts/Community-Bonding-Week-2/" rel="alternate" type="text/html" title="Community Bonding Week 2 (May 15 ~ 21)" />
-    <published>2026-05-08T10:00:00+05:30</published>
+    <published>2026-05-20T10:00:00+05:30</published>
   
-    <updated>2026-05-08T10:00:00+05:30</updated>
+    <updated>2026-05-20T10:00:00+05:30</updated>
   
     <id>http://0.0.0.0:4000/gsoc2026-Sarvesh_Mishra/posts/Community-Bonding-Week-2/</id>
     <content type="text/html" src="http://0.0.0.0:4000/gsoc2026-Sarvesh_Mishra/posts/Community-Bonding-Week-2/" />
@@ -49,7 +49,8 @@
 
 Progress &amp;amp;amp; Achievements
 
-  VisualCircuit Implementation: I have implemented the Line Follower exercise using VisualCircuit! The rest of the implementation details...</summary>
+  
+    VisualCircuit PR #447: I successfully submitted a Pull Request (PR #447) to the VisualCircuit repository. This PR addresses and fi...</summary>
 
   </entry>
 
@@ -79,9 +80,9 @@ Progress &amp;amp;amp; Achievements
 
 I am incredibly excited to be working with the JdeRobot community on the Robotics-Academy project for Google Summer of Code 2026! My accepted project is titled:
 
-“VisualCircuit: Improving Functionality and Block Library”
+VisualCircuit: Improving Functionality and Block Library
 
-Google Summer of Code kicks off with a Community Bonding phase. This is a dedicated period for contributors to get to know their mentors, engage with...</summary>
+Google Summer of Code kicks off with a Community Bonding phase. This is a dedicated period for contributors to get to know their mentors, engage with t...</summary>
 
   </entry>
 

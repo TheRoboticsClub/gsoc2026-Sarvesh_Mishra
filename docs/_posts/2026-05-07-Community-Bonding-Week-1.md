@@ -10,7 +10,7 @@ published: true
 
 I am incredibly excited to be working with the JdeRobot community on the Robotics-Academy project for Google Summer of Code 2026! My accepted project is titled:
 
-**"VisualCircuit: Improving Functionality and Block Library"**
+**VisualCircuit: Improving Functionality and Block Library**
 
 Google Summer of Code kicks off with a Community Bonding phase. This is a dedicated period for contributors to get to know their mentors, engage with the community, and deepen their technical understanding of both the organization and the project before coding officially begins.
 
