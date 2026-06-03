@@ -4,7 +4,7 @@
   <id>http://0.0.0.0:4000/gsoc2026-Sarvesh_Mishra/</id>
   <title>Sarvesh | GSoC 2026</title>
   <subtitle>Weekly GSoC updates and development logs during Google Summer of Code 2026.</subtitle>
-  <updated>2026-05-20T22:19:09+05:30</updated>
+  <updated>2026-06-03T18:58:44+05:30</updated>
   <author>
     <name>Sarvesh</name>
     <uri>http://0.0.0.0:4000/gsoc2026-Sarvesh_Mishra/</uri>
@@ -17,6 +17,40 @@
   <icon>/gsoc2026-Sarvesh_Mishra/assets/img/favicons/favicon.ico</icon>
   <logo>/gsoc2026-Sarvesh_Mishra/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Community Bonding Week 3 (May 22 ~ 28)</title>
+    <link href="http://0.0.0.0:4000/gsoc2026-Sarvesh_Mishra/posts/Community-Bonding-Week-3/" rel="alternate" type="text/html" title="Community Bonding Week 3 (May 22 ~ 28)" />
+    <published>2026-05-26T10:00:00+05:30</published>
+  
+    <updated>2026-05-26T10:00:00+05:30</updated>
+  
+    <id>http://0.0.0.0:4000/gsoc2026-Sarvesh_Mishra/posts/Community-Bonding-Week-3/</id>
+    <content type="text/html" src="http://0.0.0.0:4000/gsoc2026-Sarvesh_Mishra/posts/Community-Bonding-Week-3/" />
+    <author>
+      <name>Sarvesh</name>
+    </author>
+
+  
+    
+    <category term="GSoC 2026" />
+    
+    <category term="Progress" />
+    
+  
+
+  <summary>Objectives for the Week
+
+  Test and finalize the Amazon Warehouse workspace and Laser Mapping exercises.
+  Plan the implementation for the VisualCircuit Marketplace for the upcoming Coding Period Week 1.
+
+
+Progress &amp;amp;amp; Achievements
+
+  Finalizing the Exercises: I successfully finalized the outputs for both the Amazon Warehouse workspace and Laser Mapping exercises. The Laser Mapping exercise i...</summary>
+
+  </entry>
 
   
   <entry>
