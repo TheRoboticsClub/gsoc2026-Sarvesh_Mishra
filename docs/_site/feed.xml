@@ -4,7 +4,7 @@
   <id>http://0.0.0.0:4000/gsoc2026-Sarvesh_Mishra/</id>
   <title>Sarvesh | GSoC 2026</title>
   <subtitle>Weekly GSoC updates and development logs during Google Summer of Code 2026.</subtitle>
-  <updated>2026-06-03T18:58:44+05:30</updated>
+  <updated>2026-06-03T19:28:25+05:30</updated>
   <author>
     <name>Sarvesh</name>
     <uri>http://0.0.0.0:4000/gsoc2026-Sarvesh_Mishra/</uri>
@@ -17,6 +17,41 @@
   <icon>/gsoc2026-Sarvesh_Mishra/assets/img/favicons/favicon.ico</icon>
   <logo>/gsoc2026-Sarvesh_Mishra/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Coding Period Week 1 (May 29 ~ June 4)</title>
+    <link href="http://0.0.0.0:4000/gsoc2026-Sarvesh_Mishra/posts/Coding-Period-Week-1/" rel="alternate" type="text/html" title="Coding Period Week 1 (May 29 ~ June 4)" />
+    <published>2026-06-02T10:00:00+05:30</published>
+  
+    <updated>2026-06-02T10:00:00+05:30</updated>
+  
+    <id>http://0.0.0.0:4000/gsoc2026-Sarvesh_Mishra/posts/Coding-Period-Week-1/</id>
+    <content type="text/html" src="http://0.0.0.0:4000/gsoc2026-Sarvesh_Mishra/posts/Coding-Period-Week-1/" />
+    <author>
+      <name>Sarvesh</name>
+    </author>
+
+  
+    
+    <category term="GSoC 2026" />
+    
+    <category term="Progress" />
+    
+  
+
+  <summary>Objectives for the Week
+
+  Conclude investigations into the Amazon Warehouse workspace issues.
+  Finalize the Laser Mapping block integration in VisualCircuit.
+  Build the core frontend UI and backend linking for the VisualCircuit Marketplace.
+  Fix the block unpacking and .zip download bugs for the Marketplace.
+
+
+Progress &amp;amp;amp; Achievements
+This week marks the beginning of the official GSoC co...</summary>
+
+  </entry>
 
   
   <entry>
