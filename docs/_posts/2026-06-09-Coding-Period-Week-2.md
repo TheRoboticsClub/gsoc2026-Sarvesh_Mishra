@@ -48,7 +48,7 @@ With the cloud registry generating live data, I built the Marketplace UI panel i
 ![Downloads UI](/assets/img/posts/Coding_Period_Week2/Downloads.png)
 
 <video controls width="100%">
-  <source src="/gsoc2026-Sarvesh_Mishra/assets/img/posts/Coding_Period_Week2/test.mp4" type="video/mp4">
+  <source src="/gsoc2026-Sarvesh_Mishra/assets/img/posts/Coding_Period_Week2/Test.mp4" type="video/mp4">
 </video>
 
 ## 🧗 The Challenges and Difficulties
