@@ -8,7 +8,7 @@ published: true
 
 This week was incredibly exciting and challenging as I focused entirely on designing, building, and deploying the VisualCircuit Marketplace.
 
-## 🎯 The Main Goals for the Week
+##  The Main Goals for the Week
 The overarching goal was to bridge the gap between local block creation and global community sharing. Specifically, my objectives were to:
 
 - [x] Introduce categorized grouping into the Marketplace so blocks are easy to find.
@@ -20,7 +20,7 @@ The overarching goal was to bridge the gap between local block creation and glob
 
 Here is a breakdown of how I achieved this and the major features I implemented:
 
-## 🚀 Progress & Major Features Implemented
+##  Progress & Major Features Implemented
 
 ### 1. The Block Metadata Engine
 Before blocks could be displayed in a categorized marketplace, they needed a way to identify themselves. I updated the core `.vc3` save system and the "Project Info" dialog UI in the frontend. Users can now assign a Category (e.g., Computer Vision, Locomotion) and custom Tags to their blocks. When a user clicks "Save As", this new metadata is permanently embedded directly into the JSON structure, making it readable by the marketplace backend.
@@ -48,10 +48,10 @@ With the cloud registry generating live data, I built the Marketplace UI panel i
 ![Downloads UI](/assets/img/posts/Coding_Period_Week2/Downloads.png)
 
 <video controls width="100%">
-  <source src="/gsoc2026-Sarvesh_Mishra/assets/img/posts/Coding_Period_Week2/Test.mp4" type="video/mp4">
-</video>
+    <source src="/gsoc2026-Sarvesh_Mishra/assets/img/posts/Coding_Period_Week2\Test.mp4" type="video/mp4">
+  </video>
 
-## 🧗 The Challenges and Difficulties
+##  The Challenges and Difficulties
 Building a system that spans across multiple repositories and relies heavily on both React and GitHub Actions came with several tough technical hurdles:
 
 1. **Injecting Blocks into the Native Palette:** One of the hardest frontend challenges was dynamically injecting downloaded blocks into the existing visual sidebar palette. I had to carefully intercept the React component that renders the native blocks, read from `localStorage`, and inject the new blocks on the fly while ensuring they were categorized seamlessly alongside the built-in elements.
@@ -63,7 +63,7 @@ This week successfully bridged the gap between local block creation and global c
 ## 🤝 Mentor Meeting
 ![Meet](/assets/img/posts/Coding_Period_Week2/Meet.png)
 
-## 🔗 Pull Requests
+##  Pull Requests
 Here are the Pull Requests submitted for this week's features:
 - [feature/tags-improvement](https://github.com/JdeRobot/VisualCircuit/pull/462)
 - [feature/marketplace](https://github.com/JdeRobot/VisualCircuit/pull/463)
