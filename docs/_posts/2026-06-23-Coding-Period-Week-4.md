@@ -50,7 +50,7 @@ After fixing the API calls, I successfully split the system into four dedicated 
 I first tested this 4-block setup natively in my Ubuntu environment, and it worked flawlessly!
 
 <video controls width="100%">
-    <source src="/gsoc2026-Sarvesh_Mishra/assets/img/posts/Coding_Period_Week4\Ubuntu\.mp4" type="video/mp4">
+    <source src="/gsoc2026-Sarvesh_Mishra/assets/img/posts/Coding_Period_Week4\Ubuntu.mp4" type="video/mp4">
   </video>
 
 The main challenge was getting it to run inside the Robotics Academy Docker container. To achieve this, I:
