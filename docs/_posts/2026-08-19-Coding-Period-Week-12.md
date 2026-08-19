@@ -13,8 +13,10 @@ I started the week by revisiting the documentation automation Pull Request from 
 
 I spent time adjusting the HTML parsing and generation so the automated documentation perfectly mimics the native styling. I fully tested the flow and recorded a video showcasing the seamless automated documentation generation!
 
+![Tags UI](/assets/img/posts/Coding_Period_Week12/P1.png)
 - <!-- TODO: Attach Image of the Documentation PR here -->
 - <!-- TODO: Attach Video of the automated documentation generation here -->
+![Tags UI](/assets/img/posts/Coding_Period_Week12/P6.png)
 
 ## 🧩 Building Truly Reusable Blocks
 The biggest technical shift this week was converting our previous code from a rigid "circuit" into fully reusable "blocks".
@@ -34,8 +36,10 @@ This means the laser sensor block can be connected from outside, the odometry bl
 
 The circuit now decides which sensor or display is connected, while the reusable blocks purely process input data and produce output data.
 
+![Tags UI](/assets/img/posts/Coding_Period_Week12/P5.png)
 - <!-- TODO: Attach Image of the Reusable Laser Mapping Block here -->
 - <!-- TODO: Attach Video of Testing Laser Mapping Block here -->
+
 
 ## 📤 Publishing the Blocks & Contributor Tutorial
 Now that the blocks were fully dynamic and reusable, I pushed both the Obstacle Avoidance block and the Laser Mapping block to the repository for review!
@@ -44,13 +48,19 @@ Now that the blocks were fully dynamic and reusable, I pushed both the Obstacle 
 - <!-- TODO: Attach Video of Testing Obstacle Avoidance Block here -->
 
 - <!-- TODO: Add Links to the 2 PRs for the new blocks here -->
+- [PR: Block1](https://github.com/JdeRobot/VisualCircuit-resources/pull/21)
+- [PR: Block2](https://github.com/JdeRobot/VisualCircuit-resources/pull/20)
+![Tags UI](/assets/img/posts/Coding_Period_Week12/P3.png)
+![Tags UI](/assets/img/posts/Coding_Period_Week12/P4.png)
 - <!-- TODO: Attach Image of the PRs here -->
 
 Because pushing a block into the marketplace requires a specific workflow, I also recorded a full tutorial video specifically designed for future open-source contributors. It walks through exactly how to package, document, and push a custom block to the VisualCircuit Marketplace.
 
 - <!-- TODO: Attach Contributor Tutorial Video (or Thumbnail Photo) here -->
+![Tags UI](/assets/img/posts/Coding_Period_Week12/P2.png)
 
 ## 🤝 Mentor Meeting
 We had a great sync at the end of the week to review the newly refactored dynamic blocks, the final documentation styling, and the new contributor tutorial!
 
 <!-- TODO: Attach Mentor Meeting Photo here -->
+![Tags UI](/assets/img/posts/Coding_Period_Week12/meet.png)

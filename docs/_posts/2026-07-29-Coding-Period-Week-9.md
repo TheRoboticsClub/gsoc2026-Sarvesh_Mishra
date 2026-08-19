@@ -17,6 +17,8 @@ Since the entire previous week was consumed by the Django backend refactor, I fi
 
 It took some time to get the cuts perfectly aligned with the VisualCircuit theme, but the final video clearly demonstrates the power of the new custom blocks!
 
+![Tags UI](/assets/img/posts/Coding_Period_Week9/P1.png)
+![Tags UI](/assets/img/posts/Coding_Period_Week9/P2.png)
 <!-- TODO: Attach the final Obstacle Avoidance showcase video (or thumbnail photo) here -->
 
 ## 🧪 Testing the New Storage Architecture
@@ -24,9 +26,8 @@ The second half of the week was spent rigorously testing the new `POST` and `GET
 
 I found and ironed out a few minor edge cases in how the React frontend parses the incoming JSON from the Django server. The system is now incredibly stable—custom blocks feel completely native to the editor!
 
+![Tags UI](/assets/img/posts/Coding_Period_Week9/P3.png)
 <!-- TODO: Attach a screenshot of the stabilized UI / downloaded blocks here -->
 
 ## 🤝 Mentor Sync
 We met briefly at the end of the week to confirm the storage architecture was stable and to begin planning the next major hurdle: handling unsupported libraries in custom blocks.
-
-<!-- TODO: Attach Mentor Meeting Photo here -->

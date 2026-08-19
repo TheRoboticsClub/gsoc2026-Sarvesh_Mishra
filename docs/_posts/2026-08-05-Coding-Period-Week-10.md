@@ -19,6 +19,7 @@ As we began testing the Marketplace workflow, we hit a wall: VisualCircuit only 
 I spent a significant portion of the week researching how to solve this dynamically. My proposed solution was to use Python's **AST (Abstract Syntax Tree)** to automatically scan the user's custom block code for `import` and `import from` statements. By extracting the library name dynamically, we could map it to the correct internal dependency (e.g., mapping `cv2` to `python-vision`). I began scripting this AST extraction logic to prepare it for a PR next week.
 
 <!-- TODO: Attach an image of the Python AST script logic or the Issue discussion here -->
+![Tags UI](/assets/img/posts/Coding_Period_Week10/P2.png)
 
 ## 📑 Planning the CI/CD Documentation Architecture
 The second major hurdle was figuring out how to automate the documentation generation for new blocks.
@@ -27,9 +28,8 @@ I mapped out the entire pipeline and quickly realized a major structural blocker
 
 After an intense planning session with my mentor, we decided the only viable path forward was to completely migrate the `blocks.html` file into the `VisualCircuit-resources` repository.
 
-<!-- TODO: Attach a screenshot of the documentation migration planning or architecture diagram here -->
+![Tags UI](/assets/img/posts/Coding_Period_Week10/P1.png)
 
 ## 🤝 Mentor Meeting
 We spent our meeting this week heavily focused on architecture. We reviewed the AST extraction theory, finalized the decision to migrate the documentation routing, and prepared all our pending PRs to be officially merged next week!
 
-<!-- TODO: Attach Mentor Meeting Photo here -->
