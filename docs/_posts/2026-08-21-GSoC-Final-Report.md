@@ -89,22 +89,22 @@ Here is the list of all Pull Requests that encompass this project:
 
 | Date | Repository | Pull Request | Description |
 | :--- | :--- | :--- | :--- |
-| `<!-- TODO: Date -->` | VisualCircuit | [PR #418](https://github.com/JdeRobot/VisualCircuit/pull/418) | Initial architectural updates and platform fixes |
-| `<!-- TODO: Date -->` | VisualCircuit | [PR #447](https://github.com/JdeRobot/VisualCircuit/pull/447) | Enhancements to core circuit execution logic |
-| `<!-- TODO: Date -->` | VisualCircuit | [PR #462](https://github.com/JdeRobot/VisualCircuit/pull/462) | Improved the block tagging system for the UI |
-| `<!-- TODO: Date -->` | VisualCircuit | [PR #463](https://github.com/JdeRobot/VisualCircuit/pull/463) | Integrated the core Marketplace UI and registry fetching |
-| `<!-- TODO: Date -->` | VisualCircuit | [PR #464](https://github.com/JdeRobot/VisualCircuit/pull/464) | Built the frontend downloads palette for custom blocks |
-| `<!-- TODO: Date -->` | VisualCircuit | [PR #469](https://github.com/JdeRobot/VisualCircuit/pull/469) | UI and structural improvements for custom block loading |
-| `<!-- TODO: Date -->` | VisualCircuit | [PR #471](https://github.com/JdeRobot/VisualCircuit/pull/471) | Integrated the full-stack Django storage backend (replacing localStorage) |
-| `<!-- TODO: Date -->` | VisualCircuit | [PR #478](https://github.com/JdeRobot/VisualCircuit/pull/478) | Implemented the Python AST extraction to map external dependencies |
-| `<!-- TODO: Date -->` | VisualCircuit | [PR #495](https://github.com/JdeRobot/VisualCircuit/pull/495) | Shifted `blocks.html` routing to the resources repository |
-| `<!-- TODO: Date -->` | VisualCircuit-resources | [PR #13](https://github.com/JdeRobot/VisualCircuit-resources/pull/13) | Created the cloud registry and automated GitHub Actions Validator |
-| `<!-- TODO: Date -->` | VisualCircuit-resources | [PR #17](https://github.com/JdeRobot/VisualCircuit-resources/pull/17) | Additional registry validation logic |
-| `<!-- TODO: Date -->` | VisualCircuit-resources | [PR #18](https://github.com/JdeRobot/VisualCircuit-resources/pull/18) | Refined architecture logic and finalized registry URLs based on mentor feedback |
-| `<!-- TODO: Date -->` | VisualCircuit-resources | [PR #19](https://github.com/JdeRobot/VisualCircuit-resources/pull/19) | Engineered the CI/CD pipeline to automate documentation updates |
-| `<!-- TODO: Date -->` | VisualCircuit-resources | [PR #20](https://github.com/JdeRobot/VisualCircuit-resources/pull/20) | Pre-launch block metadata verification |
-| `<!-- TODO: Date -->` | VisualCircuit-resources | [PR #21](https://github.com/JdeRobot/VisualCircuit-resources/pull/21) | Final integration updates for Marketplace blocks |
-| `<!-- TODO: Date -->` | VisualCircuit-resources | [PR #22](https://github.com/JdeRobot/VisualCircuit-resources/pull/22/) | Final documentation and project handover fixes |
+| `2026-03-02` | VisualCircuit | [PR #418](https://github.com/JdeRobot/VisualCircuit/pull/418) | Initial architectural updates and platform fixes |
+| `2026-04-05` | VisualCircuit | [PR #447](https://github.com/JdeRobot/VisualCircuit/pull/447) | Enhancements to core circuit execution logic |
+| `2026-06-09` | VisualCircuit | [PR #462](https://github.com/JdeRobot/VisualCircuit/pull/462) | Improved the block tagging system for the UI |
+| `2026-06-09` | VisualCircuit | [PR #463](https://github.com/JdeRobot/VisualCircuit/pull/463) | Integrated the core Marketplace UI and registry fetching |
+| `2026-06-09` | VisualCircuit | [PR #464](https://github.com/JdeRobot/VisualCircuit/pull/464) | Built the frontend downloads palette for custom blocks |
+| `2026-07-01` | VisualCircuit | [PR #469](https://github.com/JdeRobot/VisualCircuit/pull/469) | UI and structural improvements for custom block loading |
+| `2026-07-15` | VisualCircuit | [PR #471](https://github.com/JdeRobot/VisualCircuit/pull/471) | Integrated the full-stack Django storage backend (replacing localStorage) |
+| `2026-07-23` | VisualCircuit | [PR #478](https://github.com/JdeRobot/VisualCircuit/pull/478) | Implemented the Python AST extraction to map external dependencies |
+| `2026-08-11` | VisualCircuit | [PR #495](https://github.com/JdeRobot/VisualCircuit/pull/495) | Shifted `blocks.html` routing to the resources repository |
+| `2026-06-08` | VisualCircuit-resources | [PR #13](https://github.com/JdeRobot/VisualCircuit-resources/pull/13) | Created the cloud registry and automated GitHub Actions Validator |
+| `2026-07-17` | VisualCircuit-resources | [PR #17](https://github.com/JdeRobot/VisualCircuit-resources/pull/17) | Additional registry validation logic |
+| `2026-08-06` | VisualCircuit-resources | [PR #18](https://github.com/JdeRobot/VisualCircuit-resources/pull/18) | Refined architecture logic and finalized registry URLs based on mentor feedback |
+| `2026-08-12` | VisualCircuit-resources | [PR #19](https://github.com/JdeRobot/VisualCircuit-resources/pull/19) | Engineered the CI/CD pipeline to automate documentation updates |
+| `2026-08-19` | VisualCircuit-resources | [PR #20](https://github.com/JdeRobot/VisualCircuit-resources/pull/20) | Pre-launch block metadata verification |
+| `2026-08-19` | VisualCircuit-resources | [PR #21](https://github.com/JdeRobot/VisualCircuit-resources/pull/21) | Final integration updates for Marketplace blocks |
+| `2026-08-22` | VisualCircuit-resources | [PR #22](https://github.com/JdeRobot/VisualCircuit-resources/pull/22/) | Final documentation and project handover fixes |
 
 ## Acknowledgements
 A massive thank you to my mentors and the entire JdeRobot community for guiding me through this fantastic summer! Working with you all has been an incredible learning experience, and I deeply appreciate the time, feedback, and support you provided every step of the way to make this project a success.
