@@ -39,28 +39,28 @@ Over the course of the 12-week coding period, the project evolved through severa
 During the Community Bonding and early coding weeks, I spent time testing and running various Robotics Academy exercises natively in VisualCircuit. This allowed me to understand exactly how the visual programming logic bridged the gap to the physical ROS simulation before I began modifying the core architecture.
 
 ### 2. The Cloud Registry & Marketplace UI
-I created the `VisualCircuit-resources` repository to act as the global database for custom blocks. I then built the frontend **Marketplace UI** inside the main VisualCircuit editor, fetching the global `registry.json` file so users could search, filter by tags, and view descriptions of community-made blocks.
+I created the `VisualCircuit-resources` repository to act as the global database for custom blocks. I then built the frontend **Marketplace UI** inside the main VisualCircuit editor. By fetching a global `registry.json` file, users are now able to dynamically search, filter by category tags, and view descriptions of community-made blocks directly inside the editor without needing to update their application.
 
-### 3. CI/CD Verification Workflow
-To ensure the quality of community contributions, I engineered a strict 3-level architecture test using GitHub Actions. Whenever a contributor pushes a new block, the CI/CD pipeline automatically checks for security violations, validates the required JSON metadata, and only upon passing, safely updates the global registry.
+### 3. CI/CD Verification Workflow (Major Milestone)
+To ensure the quality and security of community contributions, I engineered a strict, multi-stage architecture test using GitHub Actions. This was a critical component of the project. Whenever a contributor pushes a new block, the CI/CD pipeline triggers automated Python scripts that deeply parse the block's JSON metadata. It checks for security violations (like `os` or `sys` module imports), validates the existence of required fields (Author, Description, Input/Output Ports), and ensures proper block formatting. Only upon passing these strict checks does the pipeline safely and automatically append the block to the global `registry.json`.
 
 ### 4. Making the Robotics Academy Exercises
-I converted massive, monolithic Python scripts into modular VisualCircuit blocks designed to be used as actual **Robotics Academy exercises** (specifically **Obstacle Avoidance** and **Laser Mapping**). I tested these heavily to ensure they met the platform's high educational standards.
+I converted massive, monolithic Python scripts into modular VisualCircuit blocks designed to be used as actual **Robotics Academy exercises** (specifically **Obstacle Avoidance** and **Laser Mapping**). I tested these heavily to ensure they met the platform’s high educational standards.
 
 ### 5. Reusable Dynamic Blocks Refactor
-Initially, the circuits I built used hardcoded topics (like `laser_ready` or `linear_x`), meaning they couldn't be reused. I completely refactored the design to use **generic ports** (`In`, `Out`, `Ready`). This allowed the blocks to purely process data dynamically, letting the user decide how to wire them together.
+Initially, the circuits I built used hardcoded ROS topics (like `laser_ready` or `linear_x`), meaning they couldn’t be reused in different robot models. I completely refactored the design to use **generic ports** (`In`, `Out`, `Ready`). This architectural shift allowed the blocks to purely process data dynamically, letting the user decide how to wire them together.
 
-### 6. The Full-Stack Django Storage Migration
-Initially, downloaded blocks were stored in the browser's volatile `localStorage`, meaning clearing the browser deleted the blocks. I spent several weeks completely rebuilding this into a **full-stack Django architecture**. Clicking "Install" now triggers a `POST` request to the Django backend, saving it as a permanent `.vc3` file on the hard drive, which is dynamically loaded into the palette via a `GET` request.
+### 6. The Full-Stack Django Storage Migration (Major Milestone)
+This was one of the largest architectural changes of the summer. Initially, downloaded blocks were stored in the browser’s volatile `localStorage`, meaning clearing the browser completely deleted the user's blocks. I spent several weeks rebuilding this into a persistent, full-stack Django architecture. Clicking “Install” on a block now triggers a REST API `POST` request to the Django backend. The backend parses the incoming block payload, sanitizes it, and saves it permanently as a physical `.vc3` file on the user's hard drive within the `custom_blocks` directory. The frontend then dynamically reloads the palette via a `GET` request, meaning custom blocks now persist permanently across sessions and feel like native application components.
 
-### 7. AST Library Extraction
-During testing, a critical bug emerged: if a downloaded block imported an external Python library (like `cv2`), VisualCircuit would crash natively. To solve this, I engineered a Python **AST (Abstract Syntax Tree)** script that dynamically scans custom blocks for `import` statements and maps them to internal system dependencies.
+### 7. AST Library Dependency Extraction
+During testing, a critical bug emerged: if a downloaded block imported an external Python library (like `cv2` or `numpy`), VisualCircuit would crash natively because it didn't know how to resolve those dependencies in the execution graph. To solve this, I engineered a Python **AST (Abstract Syntax Tree)** script that dynamically parses the raw Python code inside custom blocks. It extracts the import statements at runtime and dynamically maps them to internal system dependencies before execution, completely preventing the crash.
 
-### 8. Shifting Documentation & Automation
-The documentation file (`blocks.html`) lived in the main repo, but blocks were pushed to the resources repo. I successfully **shifted the documentation library** by migrating the routing of `blocks.html` over to the resources repository. I then wrote a GitHub Action to automate the documentation updates so that whenever a block is merged, its docs are automatically appended.
+### 8. Automated Documentation Generation Pipeline
+Originally, the documentation file (`blocks.html`) lived in the main UI repository, but the blocks were pushed to the external resources repository, causing a disconnect. I successfully migrated the documentation system to the resources repository and fully automated it. I wrote a complex Python GitHub Action that triggers whenever a block is merged. It extracts the block's internal logic, injects it into a reusable `pdoc3` HTML template to generate a standalone documentation page, and then dynamically parses the DOM of the master `Blocks.html` index to append a sidebar link for the new block. This means the documentation is now 100% self-maintaining.
 
 ### 9. End-to-End Testing & Tutorials
-Finally, I conducted rigorous **end-to-end testing of the blocks**: pushing a block, watching the verification CI/CD pass, installing it via the Django backend, and confirming the automated documentation generated perfectly. I also recorded full video tutorials for future contributors on how to package and publish blocks.
+Finally, I conducted rigorous **end-to-end testing** of the entire architecture: pushing a block, watching the verification CI/CD pass, installing it via the Django backend, and confirming the automated documentation generated perfectly. I also recorded full video tutorials for future contributors on how to package and publish blocks to ensure the community can easily adopt the new system.
 
 ![Tags UI](/assets/img/posts/Coding_Period_Week1/Ui.png)
 ![Tags UI](/assets/img/posts/Coding_Period_Week5/RA.png)
