@@ -83,9 +83,10 @@ Because publishing a block involves specific metadata and CI/CD checks, I record
 ## Demo Video
 Below are the final demonstration videos showcasing the complete VisualCircuit Marketplace workflow, dynamic blocks, and the end-to-end integration in action!
 
-<div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
-  <iframe width="48%" height="315" src="https://www.youtube.com/embed/REUaMzv_FmM" frameborder="0" allowfullscreen></iframe>
-  <iframe width="48%" height="315" src="https://www.youtube.com/embed/ca3Pa3PdMVs" frameborder="0" allowfullscreen></iframe>
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
+  <iframe style="flex: 1; min-width: 300px;" height="315" src="https://www.youtube.com/embed/REUaMzv_FmM" frameborder="0" allowfullscreen></iframe>
+  <iframe style="flex: 1; min-width: 300px;" height="315" src="https://www.youtube.com/embed/ca3Pa3PdMVs" frameborder="0" allowfullscreen></iframe>
+  <iframe style="flex: 1; min-width: 300px;" height="315" src="https://www.youtube.com/embed/DWp89bZrBQg" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ---
