@@ -54,8 +54,8 @@ Initially, the circuits I built used hardcoded ROS topics (like `laser_ready` or
 ### 6. The Full-Stack Django Storage Migration (Major Milestone)
 This was one of the largest architectural changes of the summer. Initially, downloaded blocks were stored in the browser’s volatile `localStorage`, meaning clearing the browser completely deleted the user's blocks. I spent several weeks rebuilding this into a persistent, full-stack Django architecture. Clicking “Install” on a block now triggers a REST API `POST` request to the Django backend. The backend parses the incoming block payload, sanitizes it, and saves it permanently as a physical `.vc3` file on the user's hard drive within the `custom_blocks` directory. The frontend then dynamically reloads the palette via a `GET` request, meaning custom blocks now persist permanently across sessions and feel like native application components.
 
-### 7. AST Library Dependency Extraction
-During testing, a critical bug emerged: if a downloaded block imported an external Python library (like `cv2` or `numpy`), VisualCircuit would crash natively because it didn't know how to resolve those dependencies in the execution graph. To solve this, I engineered a Python **AST (Abstract Syntax Tree)** script that dynamically parses the raw Python code inside custom blocks. It extracts the import statements at runtime and dynamically maps them to internal system dependencies before execution, completely preventing the crash.
+### 7. Fixing External Library Crashes (AST Extraction)
+During testing, we found a major bug: if a downloaded block used an external Python library (like `cv2` or `numpy`), the entire VisualCircuit application would crash. To fix this, I wrote a Python script using **AST (Abstract Syntax Tree)**. This script automatically reads the code inside a custom block, finds any `import` statements, and safely connects them to the system's internal libraries before the block even runs, completely preventing the crash!
 
 
 ### 8. Automated Documentation Generation Pipeline
