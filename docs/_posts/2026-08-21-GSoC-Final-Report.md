@@ -40,6 +40,7 @@ During the Community Bonding and early coding weeks, I spent time testing and ru
 
 ### 2. The Cloud Registry & Marketplace UI
 I created the `VisualCircuit-resources` repository to act as the global database for custom blocks. I then built the frontend **Marketplace UI** inside the main VisualCircuit editor. By fetching a global `registry.json` file, users are now able to dynamically search, filter by category tags, and view descriptions of community-made blocks directly inside the editor without needing to update their application.
+![Tags UI](/assets/img/posts/Coding_Period_Week8/Meet2.png)
 
 ### 3. CI/CD Verification Workflow (Major Milestone)
 To ensure the quality and security of community contributions, I engineered a strict, multi-stage architecture test using GitHub Actions. This was a critical component of the project. Whenever a contributor pushes a new block, the CI/CD pipeline triggers automated Python scripts that deeply parse the block's JSON metadata. It checks for security violations (like `os` or `sys` module imports), validates the existence of required fields (Author, Description, Input/Output Ports), and ensures proper block formatting. Only upon passing these strict checks does the pipeline safely and automatically append the block to the global `registry.json`.
@@ -56,6 +57,7 @@ This was one of the largest architectural changes of the summer. Initially, down
 ### 7. AST Library Dependency Extraction
 During testing, a critical bug emerged: if a downloaded block imported an external Python library (like `cv2` or `numpy`), VisualCircuit would crash natively because it didn't know how to resolve those dependencies in the execution graph. To solve this, I engineered a Python **AST (Abstract Syntax Tree)** script that dynamically parses the raw Python code inside custom blocks. It extracts the import statements at runtime and dynamically maps them to internal system dependencies before execution, completely preventing the crash.
 
+
 ### 8. Automated Documentation Generation Pipeline
 Originally, the documentation file (`blocks.html`) lived in the main UI repository, but the blocks were pushed to the external resources repository, causing a disconnect. I successfully migrated the documentation system to the resources repository and fully automated it. I wrote a complex Python GitHub Action that triggers whenever a block is merged. It extracts the block's internal logic, injects it into a reusable `pdoc3` HTML template to generate a standalone documentation page, and then dynamically parses the DOM of the master `Blocks.html` index to append a sidebar link for the new block. This means the documentation is now 100% self-maintaining.
 
@@ -65,6 +67,10 @@ Finally, I conducted rigorous **end-to-end testing** of the entire architecture:
 ![Tags UI](/assets/img/posts/Coding_Period_Week1/Ui.png)
 ![Tags UI](/assets/img/posts/Coding_Period_Week5/RA.png)
 
+Here is the complete video showcasing the entire end-to-end workflow in action:
+<video controls width="100%">
+    <source src="/gsoc2026-Sarvesh_Mishra/assets/img/posts/Coding_Period_Week11\V2.mp4" type="video/mp4">
+  </video>
 ---
 
 ## Contributor Tutorial
